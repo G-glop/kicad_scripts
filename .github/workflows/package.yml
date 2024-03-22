@@ -1,8 +1,8 @@
 name: package
 on:
-  push:
+  release:
     branches:
-      - master
+      types: [published, edited, released]
 
 jobs:
   package:
